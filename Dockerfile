@@ -10,10 +10,10 @@ WORKDIR /home/ubuntu/webproject
 
 #COPY /home/ubuntu/DockerProject/mysite.tar.gz .
 
-COPY mysite.tar.gz .
+COPY mysite .
 #COPY start_daemons.sh .
 
-RUN tar zxvf mysite.tar.gz
+#RUN tar zxvf mysite.tar.gz
 
 EXPOSE 8000
 
